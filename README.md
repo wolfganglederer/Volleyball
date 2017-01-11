@@ -5,10 +5,10 @@ Gesammelte Volleballübungen
 ## Todo
 
 * [ ] Struktur nochmal überdenken
-* [ ] Lizenz auf CC-BY_SA ändern
+* [ ] Lizenz auf CC-BY-SA ändern
     *  https://creativecommons.org/licenses/by-sa/3.0/de/legalcode
     *  https://creativecommons.org/licenses/by-sa/3.0/de/
-* [ ] Files Aufräumen und unötige files löschen
+* [ ] Files aufräumen und unötige Files löschen
     * _boo
     * bookdown-demo
     * DEXCRIPTION
