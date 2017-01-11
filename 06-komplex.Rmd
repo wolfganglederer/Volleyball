@@ -1,0 +1,124 @@
+# Komplex
+
+## Diagonalspiel
+
+## Kreisel
+
+### Vierer Kreisel
+
+Vier Spieler verteilen sich wie folgt aufs Feld: Ein Zuspieler auf Position 3, Jeweils ein Angriff/Abwehrspieler auf Position 2 und 4 Ein Abwehrspieler auf Position 6. Der Zuspieler Spielt immer abwechselnd auf Position 2 oder 4. Der Von dieser Position wird diagonal Angegriffen. der nicht abwehrende Spieler  zieht sich auf zurück (ca. 3-Meterlinie) der Spieler von Position 6 schließt an, so dass sie sich nicht behindern. Die Abwehr erfolgt zum Zuspieler der nun den wieder zuspielt usw...
+
+Wichtig ist darauf zu achten, dass die Spieler immer wieder auf ihre Position zurückkehren, damit vor jeder Abwehr eine Bewegung erfolgt
+
+__Varianten__
+
++ Der Zuspieler spielt nicht abwechselnd, sondern zufällig auf Position 2 oder 4.
++ Angriff im Sprung
++ Zuspiel im Sprung
+
+### Fünfer Kreisel
+
+Wie Vierer Kreisel \@ref(vierer-kreisel) nur stehen auf Position 6 zwei Spieler, die verschieben. Auf die Abstimmung zwischen den Spielern achten
+
+
+### Sechser Kreisel
+
+<iframe width="560" height="315" src="https://www.youtube.com//embed/32BplDj0tT0?rel=0" frameborder="0" allowfullscreen></iframe>
+
+### Achter Kreisel
+
+Wie Sechser Kreisel \@ref(sechser-kreisel), mit der Ausnahme, dass es einen oder 2 dedizierte Zuspieler gibt, der von außerhalb des Feldes einläuft.
+
+## Diagonal Angriff mit nachlaufen
+
+## Longline Pritschen, diagonal Baggern mit Nachlaufen
+
+Alle vier Ecken eines Feldes werden besetzt in den Ecken am Netz stehen jeweils 2 Spieler hintereinander. Die vorderen Spieler am Netz haben jeweils einen Ball und beginnen damit den Ball longline zu spielen und dem eigenen Ball nach zu laufen. Die Spieler in der hinteren Ecke baggern den Ball diagonal zum jeweils verbliebenen Spieler am Netz und folgen ihrem Ball. Der Spieler am Netz spielt nun wieder longline und folgt seinem Ball.
+
+
+
+```{r include = FALSE}
+
+if(recalculate_long_diag){
+t1 <- data.frame(x_ball1=0, y_ball1=0.08,
+                 x_ball2=1, y_ball2=0.08, 
+                x1 = 0, y1 = 0.05,
+                x2 = 0, y2 = 0,
+                x3 = 1, y3 = 0.05,
+                x4 = 1, y4 = 0,
+                x5 = 0, y5 = 1,
+                x6 = 1, y6 = 1,
+                stringsAsFactors = FALSE)
+
+t2 <- data.frame(x_ball1=0, y_ball1=0.97,
+                 x_ball2=1, y_ball2=0.97, 
+                x1 = 0, y1 = 0.5,
+                x2 = 0, y2 = 0.05,
+                x3 = 1, y3 = 0.5,
+                x4 = 1, y4 = 0.05,
+                x5 = 0, y5 = 1,
+                x6 = 1, y6 = 1,
+                stringsAsFactors = FALSE)
+
+t3 <- data.frame(x_ball1=1, y_ball1=0.08,
+                 x_ball2=0, y_ball2=0.08, 
+                x1 = 0, y1 = 1,
+                x2 = 0, y2 = 0.05,
+                x3 = 1, y3 = 1,
+                x4 = 1, y4 = 0.05,
+                x5 = 0.5, y5 = 0.5,
+                x6 = 0.5, y6 = 0.5,
+                stringsAsFactors = FALSE)
+
+t4 <- data.frame(x_ball1=1, y_ball1=0.97,
+                 x_ball2=0, y_ball2=0.97, 
+                x1 = 0, y1 = 1,
+                x2 = 0, y2 = 0.5,
+                x3 = 1, y3 = 1,
+                x4 = 1, y4 = 0.5,
+                x5 = 1, y5 = 0,
+                x6 = 0, y6 = 0,
+                stringsAsFactors = FALSE)
+
+t5 <- data.frame(x_ball1=0, y_ball1=0.08,
+                 x_ball2=1, y_ball2=0.08, 
+                x1 = 0.5, y1 = 0.5,
+                x2 = 0, y2 = 1,
+                x3 = 0.5, y3 = 0.5,
+                x4 = 1, y4 = 1,
+                x5 = 1, y5 = 0.05,
+                x6 = 0, y6 = 0.05,
+                stringsAsFactors = FALSE)
+
+
+
+tl <- list(t1,t2,t3,t4,t5)
+
+
+t <- tween_states(tl, tweenlength = 2, statelength = 0, ease = 'sine-in-out',  nframes = 150)
+
+
+p <- ggplot(t) +
+  geom_point(aes(x = x_ball1, y = y_ball1,frame = .frame),color = "goldenrod1", size = 7) +
+  geom_point(aes(x = x_ball2, y = y_ball2,frame = .frame),color = "goldenrod1", size = 7) +
+  geom_point(aes(x = x1, y = y1, frame = .frame), color = "blue", size = 9) +
+  geom_point(aes(x = x2, y = y2, frame = .frame), color = "blue", size = 9) +
+  geom_point(aes(x = x3, y = y3, frame = .frame), color = "blue", size = 9) +
+  geom_point(aes(x = x4, y = y4, frame = .frame), color = "blue", size = 9) +
+  geom_point(aes(x = x5, y = y5, frame = .frame), color = "blue", size = 9) +
+  geom_point(aes(x = x6, y = y6, frame = .frame), color = "blue", size = 9) +
+  theme_no_axes()
+  
+ani.options(interval = 1e-12)
+
+gganimate(p, "C:/Projekte/Volleyball/img/long_diag.gif", title_frame = F, saver = "gif")
+}
+
+```
+
+
+```{r echo=FALSE}
+knitr::include_graphics("img/long_diag.gif")
+```
+
+

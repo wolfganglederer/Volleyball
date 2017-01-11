@@ -1,0 +1,27 @@
+--- 
+title: "Volleyball Übungen"
+author: "Wolfgang Lederer"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "Volleyball Übungen"
+---
+
+
+```{r include = FALSE}
+library(ggplot2)
+library(gganimate)
+library(ggforce)
+library(tweenr)
+library(animation)
+
+recalculate_3eck <- FALSE
+recalculate_parallel <- FALSE
+recalculate_long_diag <- FALSE
+```
+

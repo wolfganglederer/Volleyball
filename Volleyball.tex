@@ -1,0 +1,381 @@
+\documentclass[]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Volleyball Übungen},
+            pdfauthor={Wolfgang Lederer},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{Volleyball Übungen}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \author{Wolfgang Lederer}
+  \preauthor{\centering\large\emph}
+  \postauthor{\par}
+  \predate{\centering\large\emph}
+  \postdate{\par}
+  \date{2017-01-07}
+
+\usepackage{booktabs}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\chapter{Einleitung}\label{einleitung}
+
+Gesammelte Volleyballübungen von Volleyfreuden e.V.
+
+\chapter{Warm Up}\label{warm-up}
+
+\section{Spielen mit Nachlaufen}\label{spielen-mit-nachlaufen}
+
+Drei bis vier Spieler stellen sich in 2 Gruppen gegenüber auf. Der Ball
+wird hin und her gespielt und man wechselt nach jedem Ballkontakt die
+Seite (dem eigenen Ball nachlaufen) und stellt sich hinten an.
+
+\textbf{Varianten}
+
+\begin{itemize}
+\tightlist
+\item
+  Oberes und unteres Zuspiel abwechseln
+\item
+  Oberes Zuspiel im Sprung
+\item
+  Jedesmal zum Ende des Laufens einen Hechtbagger oder Stemmschritt mit
+  Sprung
+\item
+  Einmal selbst zuspielen dabei um 180° drehen und dann über Kopf zurück
+\end{itemize}
+
+\section{Spielen mit Nachlaufen
+Diagonal}\label{spielen-mit-nachlaufen-diagonal}
+
+Drei bis vie Spieler spielen sich den Ball mit Nachlaufen zu. Dabei
+stehen sie diagonal im Feld und kreuzen den Weg mit einer zweiten
+Gruppe. Zusätzlich zu den Varianten in \ref{spielen-mit-nachlaufen},
+kann noch über Eck gelaufen werden.
+
+\section{Paralell Spielen und Position
+wechseln}\label{paralell-spielen-und-position-wechseln}
+
+Je zwei Spieler stehen parallel und spielen den Ball gleichzeitig hin
+und her. Nach jeder Ballberührung tauschen die Beiden (nicht paralleln
+Spieler) die Position.
+
+\textbf{Varianten}
+
+\begin{itemize}
+\tightlist
+\item
+  oberes und unters Zuspiel abwechseln
+\item
+  den Ball über Kreuz spielen
+\item
+  den Ball im Sprung zuspielen
+\end{itemize}
+
+\section{Spielen im Dreieck mit
+laufen}\label{spielen-im-dreieck-mit-laufen}
+
+Die Spieler stellen sich im Dreieck auf. Der Ball wird in eine Richtung
+gespielt und der Spieler läuft in die andere Richtung, usw.
+
+\includegraphics{C:/Projekte/Volleyball/img/3eck.gif}
+
+\section{Ausbaggern}\label{ausbaggern}
+
+Die Spieler stellen sich an beiden Enden des Feldes an. Der Ball wird
+immer abwechselnd im unteren Zuspiel direkt über das Netz gespielt. Nach
+jeder Ballberührung Lüft der Speiler auf die Andere Feldhälfte und
+stellt sich hinten an. Es ist darauf zu achten, dass die andern Spieler
+nicht behindert werden. Wenn ein Fehler (Netz, Aus, nicht im unteren
+Zuspiel gespielt oder der Ball fällt auf den Boden) gemacht wird,
+beginnt der Spieler der den Fehler beganngen hat von vorne und verliert
+ein Leben. Hat ein Spieler alle seine Leben verbraucht, scheidet er aus
+und macht sich solange individuell warm
+
+\textbf{Varianten}
+
+\begin{itemize}
+\tightlist
+\item
+  Der Ball wird über einen Bodenkontakt eingeschlagen statt eingeworfen
+\item
+  Wenn der Ball auf den Boden fällt verliert der Spieler 2 Leben
+\item
+  Es wird nur auf den 3-Meter-Raum gespielt
+\end{itemize}
+
+\chapter{Einspielen}\label{einspielen}
+
+\section{Technik}\label{technik}
+
+\subsection{Angriff mit Nachwerfen}\label{angriff-mit-nachwerfen}
+
+Um eine hohe Kadenz an Abwehr/Annahmebewegungen zu erreichen, hält der
+Angriffsspieler 2 Bälle. Der erste Ball wird zuerst locker, im Laufe der
+Übung immer fester angegriffen. Der zweite Ball wird dann relativ bald
+hoch nachgeworfen (Dankeball). Der Verteidigungsspieler wehrt den
+angegriffenen Ball ab und nimmt den geworfenen Ball danach an. Der
+Angriffsspieler fängt den Abgewehrten Ball und greift den Dankeball
+direkt an und wirft darauf den gefangen Ball nach \citep{hauser2016}.
+
+\textbf{Varianten}
+
+\begin{itemize}
+\tightlist
+\item
+  Der Dankeball wird zu kurz, nach links oder nach rechts geworfen um
+  eine Bewegung des Abwehrspielers zu erzwingen.
+\item
+  Die Angriffe werden härter oder gelobt.
+\end{itemize}
+
+\subsection{Ball ins Gesicht}\label{ball-ins-gesicht}
+
+2 Spieler, 1 Ball. Der Ball wird vom Angriffsspieler auf den
+Abwehrspieler geworfen. Der Angriffsspieler zielt auf den Bereich der
+zwischen unterer und oberer Abwehr liegt, um die Entscheidung für eine
+von beiden Techniken und der Ausführung zu trainieren.
+
+\subsection{Werfen mit 3 Bällen}\label{werfen-mit-3-ballen}
+
+Als Paar aufstellen, der Angriffsspieler hat 3 Bälle und wirft diese
+nacheinander dem Abwehrspieler zu, der sie hoach abwehrt, sodass der
+Angriffspieler die Bälle einen nach dem Anderen fangen und wieder
+zurrück werfen kann.
+
+\textbf{Varianten}
+
+\begin{itemize}
+\item
+  Die Übung kann beliebig erschwert werden, indem die Bälle kürzer,
+  länger oder seitlich versetzt geworfen werden. Es ist dann auf die
+  Linie großer Zeh, Knie, Schulter zu achten
+\item
+  Es können aufeinander gestellte Bänke zwischen den Spielern
+  aufgestellt werden um das Netzt zu simulieren
+\end{itemize}
+
+\subsection{Kurz, lang, kurz}\label{kurz-lang-kurz}
+
+Paarweise. Spieler 1 spielt langen Ball zu Spieler 2 und läuft nach.
+Spieler 2 spielt kurz vor sich zu Spieler 1, der wieder kurz zurück und
+kehrt auf seine ursprüngliche Position zurück. Spieler 2 spielet nun
+lang und läuft nun dem Ball nach und spielt den von Spieler 1 kurz
+gespielten Ball zurück und kehrt dann wieder zum Ursprung zurück. Und so
+weiter
+
+\textbf{Varianten}
+
+\begin{itemize}
+\tightlist
+\item
+  mit Baggern
+\item
+  oberes Zuspiel im Sprung
+\end{itemize}
+
+\subsection{Lang, Mitte, Kurz}\label{lang-mitte-kurz}
+
+Paarweise, ein Angriffsspieler mit Rücken zum Netz und ein
+Abwehrspieler:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Langer Angriff
+\item
+  Mittel gelegt
+\item
+  kurz gelegt
+\item
+  Ein Zwischenspiel und von vorne
+\end{enumerate}
+
+\subsection{Lang, kurz}\label{lang-kurz}
+
+Angriffsspieler mit rücken zum Netz greift lang an auf Abwehrspieler.
+Hohe Abwehr. Angriffsspieler legt den Ball kurz. Nach Zwischenspiel
+wieder langer Angriff usw.
+
+\textbf{Varianten}
+
+\begin{itemize}
+\tightlist
+\item
+  kurzer Ball muss im oberen Zuspiel gespielt werden
+\item
+  \ldots{}
+\end{itemize}
+
+\section{Koordination}\label{koordination}
+
+\subsection{Parallel spielen mit 2
+Bällen}\label{parallel-spielen-mit-2-ballen}
+
+Zwei Spieler spielen parallel mit 2 Bällen. Die Technik sollte
+vorgegeben werden. Zuerst oberes Zuspiel, unteres Zuspiel, oder
+abwechselnd.
+
+\subsection{Spiel mit 3 Bällen}\label{spiel-mit-3-ballen}
+
+Zu zweit. Jeder spieler hält einen Ball in der Hand. Mit einem dritten
+Ball wird hin und her gespielt. Der eigene Ball muss immer passend
+hochgeworfen und wieder gefangen werden.
+
+\subsection{Ein Spieler 2 Bälle}\label{ein-spieler-2-balle}
+
+Ein Spieler hält einen Ball in jeder Hand das gegenüber spielt einen
+Ball zu. Der Spieler mit den beiden Bällen in der hand wirft diese
+rechtzeitig hoch um den vom Partner geworfenen Ball zu spielen und fängt
+anschließend seine eigenen Bälle wieder.
+
+Die Übung kann dadurch erschwert werden, dass kleinere Gegenstände
+benutzt werden, z.B. Tennisbälle.
+
+\subsection{Drei Spieler 4 Bälle}\label{drei-spieler-4-balle}
+
+Wie Spielen mit Nachlaufen (\ref{spielen-mit-nachlaufen}), allerdings
+hat jeder Spieler einen Ball in der Hand und wirft sich den Ball selbst
+zu, spielt unter dessen den Spielball, fängt seinen eigenen Ball und
+läuft dem Spielball nach.
+
+\chapter{Angriff}\label{angriff}
+
+\chapter{Block}\label{block}
+
+\section{Block 1}\label{block-1}
+
+\section{Block 2}\label{block-2}
+
+\chapter{Annahme}\label{annahme}
+
+\section{Schöne Annahmen}\label{schone-annahmen}
+
+Mindesten 3er Gruppe. Ein Annahmespieler, ein Zuspieler/Fänger der Rest
+schlägt auf. Es erfolgen Aufschläge auf den Annahmespieler, der zum
+Fänger annimmt. Dieser zählt die schönen Annahmen mit. Nach einer fixen
+Anzahl von schönen Annahmen wird gewechselt. Dies kann auf mehreren Feld
+Hälften/Dritteln parallel ausgeführt werden.
+
+\textbf{Varianten}
+
+\begin{itemize}
+\tightlist
+\item
+  Es wird nach jedem Ball die Position gewechselt (dem Ball nachlaufen).
+\item
+  Die ersten x Aufschläge sind leicht und müssen im oberen Zuspiel
+  angenommen werden.
+\item
+  Falls mehrere Aufschläger pro Gruppe vorhanden sind, können die
+  letzten Aufschläge mit mehr Risiko gemacht werden. (Wartezeit
+  beachten).
+\item
+  Bei 2 Gruppen können Aufschläge auch diagonal erfolgen.
+\item
+  Man kann auch diagonal dem Ball nachlaufen.
+\item
+  Aufschläge werden von einem niedrigen Kasten gemacht um härtere
+  Aufschläge zu simulieren.
+\end{itemize}
+
+\chapter{Komplex}\label{komplex}
+
+\section{Diagonalspiel}\label{diagonalspiel}
+
+\section{Kreisel}\label{kreisel}
+
+\subsection{Sechser Kreisel}\label{sechser-kreisel}
+
+\section{Diagonal Angriff mit
+nachlaufen}\label{diagonal-angriff-mit-nachlaufen}
+
+\section{Longline Pritschen, diagonal Baggern mit
+nachlaufen}\label{longline-pritschen-diagonal-baggern-mit-nachlaufen}
+
+\chapter{Positionen}\label{positionen}
+
+\section{Aufstellung}\label{aufstellung}
+
+\bibliography{packages,book}
+
+
+\end{document}
