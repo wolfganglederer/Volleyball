@@ -23,7 +23,11 @@ Wie Vierer Kreisel \@ref(vierer-kreisel) nur stehen auf Position 6 zwei Spieler,
 
 ### Sechser Kreisel
 
-<iframe width="560" height="315" src="https://www.youtube.com//embed/32BplDj0tT0?rel=0" frameborder="0" allowfullscreen></iframe>
+```{r echo= FALSE}
+include_url("https://www.youtube.com//embed/32BplDj0tT0?rel=0")
+```
+
+
 
 ### Achter Kreisel
 

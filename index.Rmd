@@ -8,8 +8,8 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: https://github.com/wolfganglederer/Volleyball
-description: "Volleyball Übungen"
+github-repo: wolfganglederer/Volleyball
+description: "Volleyballübungen"
 ---
 
 # Volleyballübungen
@@ -19,6 +19,7 @@ description: "Volleyball Übungen"
 library(ggplot2)
 library(gganimate)
 library(ggforce)
+library(knitr)
 library(tweenr)
 library(animation)
 
