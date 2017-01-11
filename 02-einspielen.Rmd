@@ -6,7 +6,7 @@
 
 Um eine hohe Kadenz an Abwehr/Annahmebewegungen zu erreichen, hält der Angriffsspieler 2 Bälle. Der erste Ball wird zuerst locker, im Laufe der Übung immer fester angegriffen. Der zweite Ball wird dann relativ bald hoch nach geworfen (Dankeball). Der Verteidigungsspieler wehrt den angegriffenen Ball ab und nimmt den geworfenen Ball danach an. Der Angriffsspieler fängt den Abgewehrten Ball und greift den Dankeball direkt an und wirft darauf den gefangen Ball nach [@hauser2016].
 
-__Varianten__
+##### Varianten {-}
 
 * Der Dankeball wird zu kurz, nach links oder nach rechts geworfen um eine Bewegung des Abwehrspielers zu erzwingen.
 * Die Angriffe werden härter oder gelobt.
@@ -19,7 +19,7 @@ __Varianten__
 
 Als Paar aufstellen, der Angriffsspieler hat 3 Bälle und wirft diese nacheinander dem Abwehrspieler zu, der sie hoch abwehrt, sodass der Angriffsspieler die Bälle einen nach dem Anderen fangen und wieder zurück werfen kann.
 
-__Varianten__
+##### Varianten {-}
 
 * Die Übung kann beliebig erschwert werden, indem die Bälle kürzer, länger oder seitlich versetzt geworfen werden. Es ist dann auf die Linie großer Zeh, Knie, Schulter zu achten
 
@@ -29,7 +29,7 @@ __Varianten__
 
 Paarweise. Spieler 1 spielt langen Ball zu Spieler 2 und läuft nach. Spieler 2 spielt kurz vor sich zu Spieler 1, der wieder kurz zurück und kehrt auf seine ursprüngliche Position zurück. Spieler 2 spielt nun lang und läuft nun dem Ball nach und spielt den von Spieler 1 kurz gespielten Ball zurück und kehrt dann wieder zum Ursprung zurück. Und so weiter
 
-__Varianten__
+##### Varianten {-}
 
 * mit Baggern
 * oberes Zuspiel im Sprung
@@ -47,7 +47,7 @@ Paarweise, ein Angriffsspieler mit Rücken zum Netz und ein Abwehrspieler:
 
 Angriffsspieler mit rücken zum Netz greift lang an auf Abwehrspieler. Hohe Abwehr. Angriffsspieler legt den Ball kurz. Nach Zwischenspiel wieder langer Angriff usw.
 
-__Varianten__
+##### Varianten {-}
 
 * kurzer Ball muss im oberen  Zuspiel gespielt werden
 * ...

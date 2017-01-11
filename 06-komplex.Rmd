@@ -10,7 +10,7 @@ Vier Spieler verteilen sich wie folgt aufs Feld: Ein Zuspieler auf Position 3, J
 
 Wichtig ist darauf zu achten, dass die Spieler immer wieder auf ihre Position zurückkehren, damit vor jeder Abwehr eine Bewegung erfolgt
 
-__Varianten__
+##### Varianten {-}
 
 + Der Zuspieler spielt nicht abwechselnd, sondern zufällig auf Position 2 oder 4.
 + Angriff im Sprung

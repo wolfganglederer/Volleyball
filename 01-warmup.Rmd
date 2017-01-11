@@ -4,7 +4,7 @@
 
 Drei bis vier Spieler stellen sich in 2 Gruppen gegenüber auf. Der Ball wird hin und her gespielt und man wechselt nach jedem Ballkontakt die Seite (dem eigenen Ball nachlaufen) und stellt sich hinten an.
 
-__Varianten__
+##### Varianten {-}
 
 * Oberes und unteres Zuspiel abwechseln
 * Oberes Zuspiel im Sprung
@@ -19,7 +19,7 @@ Drei bis vier Spieler spielen sich den Ball mit Nachlaufen zu. Dabei stehen sie 
 
 Je zwei Spieler stehen parallel und spielen den Ball gleichzeitig hin und her. Nach jeder Ballberührung tauschen die Beiden (nicht parallelen Spieler) die Position.
 
-__Varianten__
+##### Varianten {-}
 
 * oberes und unters Zuspiel abwechseln
 * den Ball über Kreuz spielen
@@ -168,7 +168,7 @@ knitr::include_graphics("img/3eck.gif")
 
 Die Spieler stellen sich an beiden Enden des Feldes an. Der Ball wird immer abwechselnd im unteren Zuspiel direkt über das Netz gespielt. Nach jeder Ballberührung Lüft der Speiler auf die Andere Feldhälfte und stellt sich hinten an. Es ist darauf zu achten, dass die anderen Spieler nicht behindert werden. Wenn ein Fehler (Netz, Aus, nicht im unteren Zuspiel gespielt oder der Ball fällt auf den Boden) gemacht wird, beginnt der Spieler der den Fehler begangen hat von vorne und verliert ein Leben. Hat ein Spieler alle seine Leben verbraucht, scheidet er aus und macht sich solange individuell warm
 
-__Varianten__
+##### Varianten {-}
 
 * Der Ball wird über einen Bodenkontakt eingeschlagen statt eingeworfen
 * Wenn der Ball auf den Boden fällt verliert der Spieler 2 Leben

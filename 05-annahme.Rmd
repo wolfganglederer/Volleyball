@@ -4,7 +4,7 @@
 
 Mindesten 3er Gruppe. Ein Annahmespieler, ein Zuspieler/Fänger der Rest schlägt auf. Es erfolgen Aufschläge auf den Annahmespieler, der zum Fänger annimmt. Dieser zählt die schönen Annahmen mit. Nach einer fixen Anzahl von schönen Annahmen wird gewechselt. Dies kann auf mehreren Feld Hälften/Dritteln parallel ausgeführt werden.
 
-__Varianten__
+##### Varianten {-}
 
 * Es wird nach jedem Ball die Position gewechselt (dem Ball nachlaufen).
 * Die ersten x Aufschläge sind leicht und müssen im oberen Zuspiel angenommen werden.
