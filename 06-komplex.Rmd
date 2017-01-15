@@ -15,7 +15,7 @@ Auf beiden Feldhälften wird eine Mannschaft mit mindesten 3 Spielern aufgestell
 
 ### Vierer Kreisel
 
-Vier Spieler verteilen sich wie folgt aufs Feld: Ein Zuspieler auf Position 3, Jeweils ein Angriff/Abwehrspieler auf Position 2 und 4 Ein Abwehrspieler auf Position 6. Der Zuspieler Spielt immer abwechselnd auf Position 2 oder 4. Der Von dieser Position wird diagonal Angegriffen. der nicht abwehrende Spieler  zieht sich auf zurück (ca. 3-Meterlinie) der Spieler von Position 6 schließt an, so dass sie sich nicht behindern. Die Abwehr erfolgt zum Zuspieler der nun den wieder zuspielt usw...
+Vier Spieler verteilen sich wie folgt aufs Feld: Ein Zuspieler auf Position 3, jeweils ein Angriff/Abwehrspieler auf Position 2 und 4 und ein Abwehrspieler auf Position 6. Der Zuspieler Spielt immer abwechselnd auf Position 2 oder 4. Von dieser Position wird diagonal Angegriffen. Der nicht angreifende Netzspieler zieht sich zurück (ca. 3-Meterlinie) der Spieler von Position 6 schließt an, so dass sie sich nicht behindern. Die Abwehr erfolgt zum Zuspieler der nun den Ball wieder zuspielt usw...
 
 Wichtig ist darauf zu achten, dass die Spieler immer wieder auf ihre Position zurückkehren, damit vor jeder Abwehr eine Bewegung erfolgt
 
@@ -42,13 +42,17 @@ include_url("https://www.youtube.com//embed/32BplDj0tT0?rel=0")
 
 Wie Sechser Kreisel \@ref(sechser-kreisel), mit der Ausnahme, dass es einen oder 2 dedizierte Zuspieler gibt, der von außerhalb des Feldes einläuft.
 
-## Diagonal Angriff mit nachlaufen
+## Diagonal Angriff mit Nachlaufen
+
+Jeweils ein Spieler auf Position 1-5 die restlichen Spieler stellen sich hinter Position 6 an. Der Ball wird durch Einwurf von Position 6 auf Position 3 ins Spiel gebracht und der Spieler von Position 6 läuft auf Position 3. Position 3 spielt den Ball auf Position 2 oder 4 (z. B. abwechselnd) und folgt seinem Ball. Position 2 oder 4 schlagen den Ball (leicht) auf Position 1 oder 5 und folgen ihrem Ball. Position 1 und 5 wehren auf Position 3 ab und stellen sich hinter Position 6 an. Position 6 läuft auf Position 3 ein, sobald 3 den Ball nach vorne oder über Kopf gespielt hat.
+
+(Grafik fehlt noch)
 
 ## Longline Pritschen, diagonal Baggern mit Nachlaufen
 
 Alle vier Ecken eines Feldes werden besetzt in den Ecken am Netz stehen jeweils 2 Spieler hintereinander. Die vorderen Spieler am Netz haben jeweils einen Ball und beginnen damit den Ball longline zu spielen und dem eigenen Ball nach zu laufen. Die Spieler auf Position 1 und 5 baggern den Ball diagonal zum jeweils verbliebenen Spieler am Netz und folgen ihrem Ball. Der Spieler am Netz spielt nun wieder longline und folgt seinem Ball. Dies wird solange wiederholt bis ein Fehler passiert
 
-##### Varianten
+##### Varianten {-}
 
 * Oberes Zuspiel im Sprung
 

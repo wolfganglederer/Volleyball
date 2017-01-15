@@ -15,7 +15,7 @@ Die Spieler stellen sich an beiden Enden des Feldes an. Der Ball wird immer abwe
 
 ### Four-Square
 
-
+...
 
 ## Übungen
 
@@ -44,7 +44,7 @@ Je zwei Spieler stehen parallel und spielen den Ball gleichzeitig hin und her. N
 * oberes und unters Zuspiel abwechseln
 * den Ball über Kreuz spielen
 * den Ball im Sprung zuspielen
-
+* jeder Spieler hält zusätzlich noch einen Ball in der Hand und wirft sich diesen selbs vor und spielt dann den Spielball
 
 
 ```{r include = FALSE}
