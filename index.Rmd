@@ -12,7 +12,7 @@ github-repo: wolfganglederer/Volleyball
 description: "Volleyballübungen"
 ---
 
-# Volleyballübungen
+# Volleyballübungen {-}
 
 
 ```{r include = FALSE}
