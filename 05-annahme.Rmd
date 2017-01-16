@@ -23,3 +23,7 @@ Auf einer Feldhälfte steht jeweils ein Spieler auf Position 2 und 4 und auf der
 
 * Alle geschlagenen Bälle können auch gelegt werden
 
+```{r echo= FALSE}
+include_url("https://www.youtube.com//embed/oMHZulZ7zg0?rel=0")
+```
+
