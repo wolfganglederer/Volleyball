@@ -14,6 +14,10 @@ description: "Volleyballübungen"
 
 # Volleyballübungen {-}
 
+```{r echo=FALSE}
+knitr::include_graphics("cover.png")
+```
+
 
 ```{r include = FALSE}
 library(ggplot2)
