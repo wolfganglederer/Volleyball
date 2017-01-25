@@ -27,7 +27,7 @@ Wichtig ist darauf zu achten, dass die Spieler immer wieder auf ihre Position zu
 
 ### Fünfer Kreisel
 
-Wie Vierer Kreisel \@ref(vierer-kreisel) nur stehen auf Position 6 zwei Spieler, die verschieben. Auf die Abstimmung zwischen den Spielern achten
+Wie [Vierer Kreisel] nur stehen auf Position 6 zwei Spieler, die verschieben. Auf die Abstimmung zwischen den Spielern achten
 
 
 ### Sechser Kreisel
@@ -40,7 +40,7 @@ include_url("https://www.youtube.com//embed/32BplDj0tT0?rel=0")
 
 ### Achter Kreisel
 
-Wie Sechser Kreisel \@ref(sechser-kreisel), mit der Ausnahme, dass es einen oder 2 dedizierte Zuspieler gibt, der von außerhalb des Feldes einläuft.
+Wie [Sechser Kreisel], mit der Ausnahme, dass es einen oder 2 dedizierte Zuspieler gibt, der von außerhalb des Feldes einläuft.
 
 ## Diagonal Angriff mit Nachlaufen
 

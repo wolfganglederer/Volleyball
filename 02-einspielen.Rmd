@@ -90,7 +90,7 @@ Die Übung kann dadurch erschwert werden, dass kleinere Gegenstände benutzt wer
 
 ### Drei Spieler 4 Bälle
 
-Wie Spielen mit Nachlaufen (\@ref(spielen-mit-nachlaufen)), allerdings hat jeder Spieler einen Ball in der Hand und wirft sich den Ball selbst zu, spielt unter dessen den Spielball, fängt seinen eigenen Ball und läuft dem Spielball nach.
+Wie [Spielen mit Nachlaufen], allerdings hat jeder Spieler einen Ball in der Hand und wirft sich den Ball selbst zu, spielt unter dessen den Spielball, fängt seinen eigenen Ball und läuft dem Spielball nach.
 
 ### Zwei gegen Zwei mit 3 Bällen
 
