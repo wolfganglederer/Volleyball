@@ -74,6 +74,11 @@ Jeder Spieler wehrt den Ball zu sich selbst ab, spielt sich den Ball selbst zu u
 
 Koordinative Übungen können sowohl ins Einspielen als auch im Training integriert werden. Die Übungen sollten immer fordernd sein, sonst bewirken sie keinen Trainingseffekt.
 
+
+```{r echo= FALSE}
+include_url("https://www.youtube.com//embed//9dzgovUkOsw")
+```
+
 ### Parallel spielen mit 2 Bällen
 
 Zwei Spieler spielen parallel mit 2 Bällen. Die Technik sollte vorgegeben werden. Zuerst oberes Zuspiel, unteres Zuspiel, oder abwechselnd.
