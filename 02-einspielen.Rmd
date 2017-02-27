@@ -106,4 +106,9 @@ Gespielt wird auf den (halben) 3-Meter-Raum jedes 2er Team hat einen (Team-) Bal
 * jeder Spieler hält einen Ball in der Hand
 * 3 gegen 3 mit 5/7 Bällen
 
+```{r echo= FALSE}
+include_url("https://www.youtube.com/embed/5yaXifUSr9s")
+```
+
+
 
