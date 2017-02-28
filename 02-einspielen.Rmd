@@ -110,5 +110,3 @@ Gespielt wird auf den (halben) 3-Meter-Raum jedes 2er Team hat einen (Team-) Bal
 include_url("https://www.youtube.com/embed/5yaXifUSr9s")
 ```
 
-
-
