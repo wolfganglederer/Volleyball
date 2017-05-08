@@ -54,6 +54,10 @@ Angriffsspieler mit rücken zum Netz greift lang an auf Abwehrspieler. Hohe Abwe
 * kurzer Ball muss im oberen  Zuspiel gespielt werden
 * ...
 
+### Zuspiel im Sprung
+
+Die Spieler stehen sich im etwas geringerm Abstand gegenüber und spielen sich den Ball immer mit oberen Zuspiel im Sprung zu. Dabei daurauf achten, dass man immer einen kleinen Stemmschritt macht und sich nach jedem gespieltem Ball wieder zwei Schritte zurück zieht. Der Ball sollte am höchsten Punkt des Sprungs gespielt werden und man sollte dabei ruhig in der Luft stehen.
+
 ### Zwischenspiel
 
 Jeder Spieler spielt sich den Ball einmal selbst zu. Dabei gibt es verschiedene Varianten:
