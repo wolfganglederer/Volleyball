@@ -30,5 +30,6 @@ library(animation)
 recalculate_3eck <- FALSE
 recalculate_parallel <- FALSE
 recalculate_long_diag <- FALSE
+recalculate_russisch <- FALSE
 ```
 
