@@ -82,7 +82,7 @@ Drei Spieler, zwei Bälle. Die Spieler stehenh auf einer Linie und die äusseren
 
 ```{r include = FALSE}
 
-if(recalculate_russisch){
+if(recalculate){
 t1 <- data.frame(x_ball1=0.03, y_ball1=0,
                  x_ball2=0.38, y_ball2=0, 
                 x1 = 0, y1 = 0,
@@ -148,9 +148,96 @@ gganimate(p, "img/russisch.gif", title_frame = F, saver = "gif", ani.height = 12
 knitr::include_graphics("img/russisch.gif")
 ```
 
+##### Varianten {-}
+
+* jeder zweite Ball wird angegriffen.
+
+
 ### Zuspiel aus der Mitte
 
 3 Spieler stehen in einer Linie. der mittlere Spieler (Zuspieler) spielt den Ball einem der äusseren Spieler zu. Dieser greift auf sein Gegenüber an, der ihn wiederum zum Zuspieler an nimmt. Der Zuspieler stellt nun dem abwehrenden Spieler der wiederum angreift usw.
+
+```{r include = FALSE}
+
+if(recalculate){
+t1 <- data.frame(x_ball1=0.47, y_ball1=0.19,
+                x1 = 0, y1 = 0.1,
+                x2 = 0.5, y2 = 0.2,
+                x3 = 1, y3 = 0.1,
+                stringsAsFactors = FALSE)
+
+t2 <- data.frame(x_ball1=0.03, y_ball1=0.1,
+                x1 = 0, y1 = 0.1,
+                x2 = 0.5, y2 = 0.2,
+                x3 = 1, y3 = 0.1,
+                stringsAsFactors = FALSE)
+
+t3 <- data.frame(x_ball1=0.97, y_ball1=0.1,
+                x1 = 0, y1 = 0.1,
+                x2 = 0.5, y2 = 0.2,
+                x3 = 1, y3 = 0.1,
+                stringsAsFactors = FALSE)
+
+t4 <- data.frame(x_ball1=0.53, y_ball1=0.19,
+                x1 = 0, y1 = 0.1,
+                x2 = 0.5, y2 = 0.2,
+                x3 = 1, y3 = 0.1,
+                stringsAsFactors = FALSE)
+
+t5 <- data.frame(x_ball1=0.97, y_ball1=0.1,
+                x1 = 0, y1 = 0.1,
+                x2 = 0.5, y2 = 0.2,
+                x3 = 1, y3 = 0.1,
+                stringsAsFactors = FALSE)
+
+t6 <- data.frame(x_ball1=0.03, y_ball1=0.1,
+                x1 = 0, y1 = 0.1,
+                x2 = 0.5, y2 = 0.2,
+                x3 = 1, y3 = 0.1,
+                stringsAsFactors = FALSE)
+
+t7 <- data.frame(x_ball1=0.47, y_ball1=0.19,
+                x1 = 0, y1 = 0.1,
+                x2 = 0.5, y2 = 0.2,
+                x3 = 1, y3 = 0.1,
+                stringsAsFactors = FALSE)
+
+tl <- list(t1, t2, t3, t4, t5, t6, t7)
+
+
+t <- tween_states(tl, tweenlength = 2, statelength = 0, ease = 'sine-in-out',  nframes = 150)
+
+
+p <- ggplot(t) +
+  geom_point(
+  aes(x = x_ball1, y = y_ball1,
+  frame = .frame),
+  color = "goldenrod1",
+  size = 7
+  ) +
+  geom_point(aes(x = x1, y = y1, frame = .frame),
+  color = "blue",
+  size = 9) +
+  geom_point(aes(x = x2, y = y2, frame = .frame),
+  color = "blue",
+  size = 9) +
+  geom_point(aes(x = x3, y = y3, frame = .frame),
+  color = "blue",
+  size = 9) +
+  theme_no_axes()
+  
+ani.options(interval = 1e-12)
+
+gganimate(p, "img/mitte.gif", title_frame = F, saver = "gif", ani.height = 150)
+}
+
+```
+
+
+```{r echo=FALSE}
+knitr::include_graphics("img/mitte.gif")
+```
+
 
 ##### Varianten {-}
 

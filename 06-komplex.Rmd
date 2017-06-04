@@ -60,7 +60,7 @@ Alle vier Ecken eines Feldes werden besetzt in den Ecken am Netz stehen jeweils 
 
 ```{r include = FALSE}
 
-if(recalculate_long_diag){
+if(recalculate){
 t1 <- data.frame(x_ball1=0, y_ball1=0.08,
                  x_ball2=1, y_ball2=0.08, 
                 x1 = 0, y1 = 0.05,
