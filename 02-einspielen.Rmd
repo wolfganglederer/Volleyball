@@ -247,8 +247,7 @@ knitr::include_graphics("img/mitte.gif")
 
 ## Koordination
 
-Koordinative Übungen können sowohl ins Einspielen als auch im Training integriert werden. Die Übungen sollten immer fordernd sein, sonst bewirken sie keinen Trainingseffekt.
-
+Koordinative Übungen können sowohl ins Einspielen als auch im Training integriert werden. Die Übungen sollten immer fordernd sein, sonst haben sie keinen Trainingseffekt.
 
 ```{r echo= FALSE}
 include_url("https://www.youtube.com//embed//9dzgovUkOsw")
@@ -284,4 +283,14 @@ Gespielt wird auf den (halben) 3-Meter-Raum jedes 2er Team hat einen (Team-) Bal
 ```{r echo= FALSE}
 include_url("https://www.youtube.com/embed/5yaXifUSr9s")
 ```
+
+## Mit Tennisbällen
+
+### Ball gegen die Wand
+
+Der Ball wird abwechselnd mt links und rechts gegen die Wand geworfen und mit der jeweils anderen Hand gefangen. Daurauf achte, dass fer Ball mit den Fingern gefangen wird und nicht mit dem Ballen. Die Schwierigkeit kann durch den Abstand zur Wand und das Tempo mit dem geworfen wir variiert werden.
+
+### Ball gegen die Wand II
+
+Zwei Spieler. Spieler eins steht in Abwehrhaltung mit Blick auf die Wand. Spieler zwei wirft den Ball von hinten gegen die Wand und Spieler 1 fängt. Mit beiden Händen und danach mit einer Hand. Schwierigkeit mit Abstand zur Wand und Geschwindikeit varieren.
 
