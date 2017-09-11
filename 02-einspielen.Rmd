@@ -27,6 +27,11 @@ Als Paar aufstellen, der Angriffsspieler hat 3 Bälle und wirft diese nacheinand
 
 * Es können aufeinander gestellte Bänke zwischen den Spielern aufgestellt werden um das Netzt zu simulieren
 
+### Abwehr mit drei Bällen
+
+Als Paar aufstellen. Ein spieler hat drei Bälle. Erst ein harter Angriff dann ein kurzer Ball und zum Abschluß ein hoher Ball, der erlaufen werden muss.
+
+
 ### Kurz, lang, kurz
 
 Paarweise. Spieler 1 spielt langen Ball zu Spieler 2 und läuft nach. Spieler 2 spielt kurz vor sich zu Spieler 1, der wieder kurz zurück und kehrt auf seine ursprüngliche Position zurück. Spieler 2 spielt nun lang und läuft nun dem Ball nach und spielt den von Spieler 1 kurz gespielten Ball zurück und kehrt dann wieder zum Ursprung zurück. Und so weiter
@@ -293,6 +298,10 @@ Der Ball wird abwechselnd mt links und rechts gegen die Wand geworfen und mit de
 ### Ball gegen die Wand II
 
 Zwei Spieler. Spieler eins steht in Abwehrhaltung mit Blick auf die Wand. Spieler zwei wirft den Ball von hinten gegen die Wand und Spieler 1 fängt. Mit beiden Händen und danach mit einer Hand. Schwierigkeit mit Abstand zur Wand und Geschwindigkeit varieren.
+
+##### Varianten
+
+* Ein Auge geschlossen
 
 
 ## Agility Ladder
