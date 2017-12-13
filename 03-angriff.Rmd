@@ -1,2 +1,21 @@
 # Angriff
 
+
+## Technik
+
+```{r echo= FALSE}
+include_url("https://www.youtube.com/embed/rBDr1S7fPhU?rel=0")
+```
+
+```{r echo= FALSE}
+include_url("https://www.youtube.com/embed/Xn7h8zuJvjg")
+```
+
+
+```{r echo= FALSE}
+include_url("https://www.youtube.com/embed/Ea1_02seb9E")
+```
+
+```{r echo= FALSE}
+include_url("http://www.volleyball-trainieren.de/download/Volleyball-Technik-Angriff.pdf")
+```
