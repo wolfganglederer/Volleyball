@@ -1,5 +1,6 @@
 book_filename: "Volleyball"
 output_dir: "docs"
+delete_merged_file: yes
 language:
   ui:
     chapter_name: ""
