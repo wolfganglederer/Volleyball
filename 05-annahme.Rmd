@@ -13,6 +13,26 @@ Mindesten 3er Gruppe. Ein Annahmespieler, ein Zuspieler/Fänger der Rest schläg
 * Man kann auch diagonal dem Ball nachlaufen.
 * Aufschläge werden von einem niedrigen Kasten gemacht um härtere Aufschläge zu simulieren.
 
+
+
+## Schnelle Beine
+
+Leichter Aufschlag nicht von der Grundlinie, sondern von etwa 6 Metern. Ein Annahmespieler startet in der Mitte und läuft in Position. Der Ball soll zwischen den Beinen auf prellen. Der Spieler sollte ruhig stehen. (ca. 5 Bälle pro Spieler)
+
+```{r echo= FALSE}
+include_url("https://www.youtube-nocookie.com/embed/qk7SgCSEwJs")
+```
+
+## Annahme mit Aktion
+
+Ein Annahmespieler. Aufschlag wird angenommen, danach erfolgt eine weiter Aktion, damit man sich auf mehrere Dinge konzentrieren muss.
+
+* Der angenommene Ball wird zugespielt und vom Annahmespieler angegriffen
+* Der angenommene Ball wird zugespielt und von einem Dritten in den Block angegriffen. Der Annahmespieler muss sichern.
+* Es folgt unmittelbar ein Angriff auf den Annahmespieler
+
+
+
 # Abwehr
 
 ## Abwehr Ausdauerdrill
@@ -51,3 +71,4 @@ Paarweise. Ein Medizinball o. Ä. wird benutzt um den Ball zu prellen und ihm ei
 ```{r echo= FALSE}
 include_url("https://www.youtube.com/embed/pp1D-uoNM3o")
 ```
+
