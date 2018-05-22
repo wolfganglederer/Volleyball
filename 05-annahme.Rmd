@@ -72,3 +72,11 @@ Paarweise. Ein Medizinball o. Ä. wird benutzt um den Ball zu prellen und ihm ei
 include_url("https://www.youtube.com/embed/pp1D-uoNM3o")
 ```
 
+## Abwehr zu dritt
+
+Drei Abwehrspieler auf Position 1, 5 und 6. Ein Zuspieler/Angreifer am Netz. Der Zuspieler spielt die Bälle lange, kurz oder als Angriff auf die 3 Abwehrspieler, die diesen wiederum hoch zum Zuspieler abwehren, sodass sofort weiter gespielt werden kann.
+
+
+#### Varianten {-}
+
+* Nach jedem Ballkontakt eines Spielers auf Position 1 oder 5 wechselt dieser Position mit dem Spieler auf Position 6.
