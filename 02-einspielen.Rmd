@@ -248,7 +248,8 @@ knitr::include_graphics("img/mitte.gif")
 
 * Der Zuspieler spielt immer im Sprung zu
 * Der Zuspieler spielt über Kopf zu.
-* Die Angreifer legen den Ball kurz
+* Die Angreifer legen den Ball kurz.
+* Nach dem Angriff tauschen zuspieler und Angreifer den Platz.
 
 ## Koordination
 

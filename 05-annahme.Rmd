@@ -63,7 +63,7 @@ include_url("https://www.youtube.com//embed/lL4noI7lHrI?rel=0")
 
 ## Abwehr & Reaktion
 
-Paarweise. Ein Medizinball o. Ä. wird benutzt um den Ball zu prellen und ihm eine zufällige Richtung zu geben. Der Abwehrspieler muss versuchen den Ball zu erlaufen und (am Besten mit zwei Armen) ab zu wehren.
+Paarweise. Ein Medizinball o. Ä. wird benutzt um den Ball zu prellen und ihm eine zufällige Richtung zu geben. Der Abwehrspieler muss versuchen den Ball zu erlaufen und (am Besten mit zwei Armen) abzuwehren.
 
 
 ## Dankeball mit laufen
@@ -80,3 +80,7 @@ Drei Abwehrspieler auf Position 1, 5 und 6. Ein Zuspieler/Angreifer am Netz. Der
 #### Varianten {-}
 
 * Nach jedem Ballkontakt eines Spielers auf Position 1 oder 5 wechselt dieser Position mit dem Spieler auf Position 6.
+
+## Abwehr-Kette
+
+An der langen Seite des Feldes stellet sich ca die Hälfte der Spieler mit jeweils 2 Bällen auf. Zwischen 2 Spieler wird auf der gegnüberliegenden Hälfte ein Hütchen/Medizinball gelegt.  Die restliche Spieler Laufen nun mit Abstand in Position und wehren 2 Bälle ab und laufen danach hinter dem Hütchen zumm nächsten Spieler und wehren wiederum 2 Bälle ab.
