@@ -42,6 +42,22 @@ include_url("https://www.youtube.com//embed/32BplDj0tT0?rel=0")
 
 Wie [Sechser Kreisel], mit der Ausnahme, dass es einen oder 2 dedizierte Zuspieler gibt, der von außerhalb des Feldes einläuft.
 
+
+## Vier Ecken
+
+1 Zuspieler, 1 Angreifer, 3 Abwehrspieler. In jeder Ecke des Feldes steht ein Angreifer/Abwehrspieler. Der Zuspieler beginnt das Spiel in dem er aus der Mitte des Feldes den Ball Hoch zum Angreifer spielt. Dieser greift diagonal an. Die restlichen Abwehrspieler schließen zum Spieler in der Diagonalen Ecke auf und wehren den Ball zum Zuspieler in der Feldmitte ab. Der abwehrende Spieler wird zum neuen Angreifer (in seiner ursprünglichen Ecke) und die verbliebenen Spieler schließen zum Spieler in der diagonalen Ecke auf. Usw...
+
+
+```{r echo= FALSE}
+include_url("https://www.youtube.com/embed/ThiVmB55fHI?start=85")
+```
+
+(Grafik fehlt noch)
+
+##### Varianten {-}
+
+* Angriff im Sprung
+
 ## Diagonal Angriff mit Nachlaufen
 
 Jeweils ein Spieler auf Position 1-5 die restlichen Spieler stellen sich hinter Position 6 an. Der Ball wird durch Einwurf von Position 6 auf Position 3 ins Spiel gebracht und der Spieler von Position 6 läuft auf Position 3. Position 3 spielt den Ball auf Position 2 oder 4 (z. B. abwechselnd) und folgt seinem Ball. Position 2 oder 4 schlagen den Ball (leicht) auf Position 1 oder 5 und folgen ihrem Ball. Position 1 und 5 wehren auf Position 3 ab und stellen sich hinter Position 6 an. Position 6 läuft auf Position 3 ein, sobald 3 den Ball nach vorne oder über Kopf gespielt hat.
