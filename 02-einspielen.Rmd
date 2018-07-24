@@ -29,7 +29,7 @@ Als Paar aufstellen, der Angriffsspieler hat 3 Bälle und wirft diese nacheinand
 
 ### Abwehr mit drei Bällen
 
-Als Paar aufstellen. Ein spieler hat drei Bälle. Erst ein harter Angriff dann ein kurzer Ball und zum Abschluß ein hoher Ball, der erlaufen werden muss.
+Als Paar aufstellen. Ein Spieler hat drei Bälle. Erst ein harter Angriff dann ein kurzer Ball und zum Abschluß ein hoher Ball, der erlaufen werden muss.
 
 
 ### Kurz, lang, kurz
@@ -61,7 +61,7 @@ Angriffsspieler mit rücken zum Netz greift lang an auf Abwehrspieler. Hohe Abwe
 
 ### Zuspiel im Sprung
 
-Die Spieler stehen sich im etwas geringerm Abstand gegenüber und spielen sich den Ball immer mit oberen Zuspiel im Sprung zu. Dabei daurauf achten, dass man immer einen kleinen Stemmschritt macht und sich nach jedem gespieltem Ball wieder zwei Schritte zurück zieht. Der Ball sollte am höchsten Punkt des Sprungs gespielt werden und man sollte dabei ruhig in der Luft stehen.
+Die Spieler stehen sich im etwas geringerm Abstand gegenüber und spielen sich den Ball immer mit oberen Zuspiel im Sprung zu. Dabei daurauf achten, dass man immer einen kleinen Stemmschritt macht und sich nach jedem gespieltem Ball wieder zwei Schritte zurück zieht. Der Ball sollte gespielt werden wenn man gerade den höchsten Punkt überschritten hat, dadurch entsteht der Eindruck, man würde kurz in der Luft stehen.
 
 ### Zwischenspiel
 
@@ -160,7 +160,7 @@ knitr::include_graphics("img/russisch.gif")
 
 ### Zuspiel aus der Mitte
 
-3 Spieler stehen in einer Linie. der mittlere Spieler (Zuspieler) spielt den Ball einem der äusseren Spieler zu. Dieser greift auf sein Gegenüber an, der ihn wiederum zum Zuspieler an nimmt. Der Zuspieler stellt nun dem abwehrenden Spieler der wiederum angreift usw.
+3 Spieler stehen in einer Linie. der mittlere Spieler (Zuspieler) spielt den Ball einem der äusseren Spieler zu. Dieser greift auf sein Gegenüber an, der ihn wiederum zum Zuspieler abwehrt. Der Zuspieler stellt nun dem abwehrenden Spieler der wiederum angreift usw.
 
 ```{r include = FALSE}
 
@@ -249,7 +249,7 @@ knitr::include_graphics("img/mitte.gif")
 * Der Zuspieler spielt immer im Sprung zu
 * Der Zuspieler spielt über Kopf zu.
 * Die Angreifer legen den Ball kurz.
-* Nach dem Angriff tauschen zuspieler und Angreifer den Platz.
+* Nach dem Angriff tauschen Zuspieler und Angreifer den Platz.
 
 ## Koordination
 
