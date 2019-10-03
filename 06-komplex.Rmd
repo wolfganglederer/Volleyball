@@ -77,78 +77,29 @@ Alle vier Ecken eines Feldes werden besetzt in den Ecken am Netz stehen jeweils 
 ```{r include = FALSE}
 
 if(recalculate){
-t1 <- data.frame(x_ball1=0, y_ball1=0.08,
-                 x_ball2=1, y_ball2=0.08, 
-                x1 = 0, y1 = 0.05,
-                x2 = 0, y2 = 0,
-                x3 = 1, y3 = 0.05,
-                x4 = 1, y4 = 0,
-                x5 = 0, y5 = 1,
-                x6 = 1, y6 = 1,
-                stringsAsFactors = FALSE)
+par_cross <- 
+  tribble(~time,~x_ball1, ~y_ball1, ~x_ball2, ~y_ball2, ~x1, ~y1, ~x2, ~y2, ~x3, ~y3, ~x4, ~y4, ~x5, ~y5, ~x6, ~y6,
+          1,0, 0.08, 1, 0.08, 0, 0.05, 0, 0, 1, 0.05, 1, 0, 0, 1, 1, 1,
+          2,0, 0.97, 1, 0.97, 0, 0.5, 0, 0.05, 1, 0.5, 1, 0.05, 0, 1, 1, 1,
+          3,1, 0.08, 0, 0.08, 0, 1, 0, 0.05, 1, 1, 1, 0.05, 0.5, 0.5, 0.5, 0.5,
+          4,1, 0.97, 0, 0.97, 0, 1, 0, 0.5, 1, 1, 1, 0.5, 1, 0, 0, 0,
+          5,0, 0.08, 1, 0.08, 0.5, 0.5, 0, 1, 0.5, 0.5, 1, 1, 1, 0.05, 0, 0.05)
 
-t2 <- data.frame(x_ball1=0, y_ball1=0.97,
-                 x_ball2=1, y_ball2=0.97, 
-                x1 = 0, y1 = 0.5,
-                x2 = 0, y2 = 0.05,
-                x3 = 1, y3 = 0.5,
-                x4 = 1, y4 = 0.05,
-                x5 = 0, y5 = 1,
-                x6 = 1, y6 = 1,
-                stringsAsFactors = FALSE)
-
-t3 <- data.frame(x_ball1=1, y_ball1=0.08,
-                 x_ball2=0, y_ball2=0.08, 
-                x1 = 0, y1 = 1,
-                x2 = 0, y2 = 0.05,
-                x3 = 1, y3 = 1,
-                x4 = 1, y4 = 0.05,
-                x5 = 0.5, y5 = 0.5,
-                x6 = 0.5, y6 = 0.5,
-                stringsAsFactors = FALSE)
-
-t4 <- data.frame(x_ball1=1, y_ball1=0.97,
-                 x_ball2=0, y_ball2=0.97, 
-                x1 = 0, y1 = 1,
-                x2 = 0, y2 = 0.5,
-                x3 = 1, y3 = 1,
-                x4 = 1, y4 = 0.5,
-                x5 = 1, y5 = 0,
-                x6 = 0, y6 = 0,
-                stringsAsFactors = FALSE)
-
-t5 <- data.frame(x_ball1=0, y_ball1=0.08,
-                 x_ball2=1, y_ball2=0.08, 
-                x1 = 0.5, y1 = 0.5,
-                x2 = 0, y2 = 1,
-                x3 = 0.5, y3 = 0.5,
-                x4 = 1, y4 = 1,
-                x5 = 1, y5 = 0.05,
-                x6 = 0, y6 = 0.05,
-                stringsAsFactors = FALSE)
+par_cross_plot <- 
+  par_cross %>%  ggplot() +
+    geom_point(aes(x = x_ball1, y = y_ball1),color = "goldenrod1", size = 7) +
+    geom_point(aes(x = x_ball2, y = y_ball2),color = "goldenrod1", size = 7) +
+    geom_point(aes(x = x1, y = y1), color = "blue", size = 9) +
+    geom_point(aes(x = x2, y = y2), color = "blue", size = 9) +
+    geom_point(aes(x = x3, y = y3), color = "blue", size = 9) +
+    geom_point(aes(x = x4, y = y4), color = "blue", size = 9) +
+    geom_point(aes(x = x5, y = y5), color = "blue", size = 9) +
+    geom_point(aes(x = x6, y = y6), color = "blue", size = 9) +
+    theme_void()+
+    transition_time(time)
 
 
-
-tl <- list(t1,t2,t3,t4,t5)
-
-
-t <- tween_states(tl, tweenlength = 2, statelength = 0, ease = 'sine-in-out',  nframes = 150)
-
-
-p <- ggplot(t) +
-  geom_point(aes(x = x_ball1, y = y_ball1,frame = .frame),color = "goldenrod1", size = 7) +
-  geom_point(aes(x = x_ball2, y = y_ball2,frame = .frame),color = "goldenrod1", size = 7) +
-  geom_point(aes(x = x1, y = y1, frame = .frame), color = "blue", size = 9) +
-  geom_point(aes(x = x2, y = y2, frame = .frame), color = "blue", size = 9) +
-  geom_point(aes(x = x3, y = y3, frame = .frame), color = "blue", size = 9) +
-  geom_point(aes(x = x4, y = y4, frame = .frame), color = "blue", size = 9) +
-  geom_point(aes(x = x5, y = y5, frame = .frame), color = "blue", size = 9) +
-  geom_point(aes(x = x6, y = y6, frame = .frame), color = "blue", size = 9) +
-  theme_no_axes()
-  
-ani.options(interval = 1e-12)
-
-gganimate(p, "C:/Projekte/Volleyball/img/long_diag.gif", title_frame = F, saver = "gif")
+anim_save("img/long_diag.gif", par_cross_plot)
 }
 
 ```

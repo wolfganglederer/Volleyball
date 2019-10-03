@@ -50,67 +50,27 @@ Je zwei Spieler stehen parallel und spielen den Ball gleichzeitig hin und her. N
 ```{r include = FALSE}
 
 if(recalculate){
-t1 <- data.frame(x_ball1=0.03, y_ball1=0,
-                 x_ball2=0.03, y_ball2=1, 
-                x1 = 0, y1 = 0,
-                x2 = 0, y2 = 1,
-                x3 = 1, y3 = 0,
-                x4 = 1, y4 = 1,
-                stringsAsFactors = FALSE)
-
-t2 <- data.frame(x_ball1=0.97, y_ball1=0,
-                 x_ball2=0.97, y_ball2=1, 
-                x1 = 0, y1 = 1,
-                x2 = 0, y2 = 0,
-                x3 = 1, y3 = 0,
-                x4 = 1, y4 = 1,
-                stringsAsFactors = FALSE)
-
-t3 <- data.frame(x_ball1=0.03, y_ball1=0,
-                 x_ball2=0.03, y_ball2=1,
-                x1 = 0, y1 = 1,
-                x2 = 0, y2 = 0,
-                x3 = 1, y3 = 1,
-                x4 = 1, y4 = 0,
-                stringsAsFactors = FALSE)
+par_change <- tribble(~time, ~x_ball1, ~y_ball1, ~x_ball2, ~y_ball2, ~x1, ~y1, ~x2, ~y2, ~x3, ~y3, ~x4, ~y4,
+        1, 0.03, 0, 0.03, 1, 0, 0, 0, 1, 1, 0, 1, 1,
+        2, 0.97, 0, 0.97, 1, 0, 1, 0, 0, 1, 0, 1, 1,
+        3, 0.03, 0, 0.03, 1, 0, 1, 0, 0, 1, 1, 1, 0)
 
 
-tl <- list(t1,t2,t3)
+plot_change <- par_change %>% 
+  ggplot() +
+  geom_point(aes(x = x_ball1, y = y_ball1), color = "goldenrod1", size = 7) +
+  geom_point(aes(x = x_ball2, y = y_ball2), color = "goldenrod1", size = 7) +
+  geom_point(aes(x = x1, y = y1), color = "blue", size = 9) +
+  geom_point(aes(x = x2, y = y2), color = "blue", size = 9) +
+  geom_point(aes(x = x3, y = y3), color = "blue", size = 9) +
+  geom_point(aes(x = x4, y = y4), color = "blue", size = 9) +
+  theme_void()+
+  transition_time(time)+
+  ease_aes("sine-in-out")
 
 
-t <- tween_states(tl, tweenlength = 2, statelength = 0, ease = 'sine-in-out',  nframes = 150)
 
-
-p <- ggplot(t) +
-  geom_point(
-  aes(x = x_ball1, y = y_ball1,
-  frame = .frame),
-  color = "goldenrod1",
-  size = 7
-  ) +
-  geom_point(
-  aes(x = x_ball2, y = y_ball2,
-  frame = .frame),
-  color = "goldenrod1",
-  size = 7
-  ) +
-  geom_point(aes(x = x1, y = y1, frame = .frame),
-  color = "blue",
-  size = 9) +
-  geom_point(aes(x = x2, y = y2, frame = .frame),
-  color = "blue",
-  size = 9) +
-  geom_point(aes(x = x3, y = y3, frame = .frame),
-  color = "blue",
-  size = 9) +
-  geom_point(aes(x = x4, y = y4, frame = .frame),
-  color = "blue",
-  size = 9) +
-  theme_no_axes()
-  
-ani.options(interval = 1e-12)
-
-gganimate(p, "img/paralell.gif", title_frame = F, saver = "gif")
+anim_save("img/paralell.gif", plot_change)
 }
 
 ```
@@ -137,49 +97,23 @@ Die Spieler stellen sich im Dreieck auf. Der Ball wird in eine Richtung gespielt
 ```{r include = FALSE}
 
 if(recalculate){
-t1 <- data.frame(x_ball=0.05, y_ball=0.05, 
-                x1 = 0, y1 = 0,
-                x2 = 1, y2 = 1,
-                x3 = 2, y3 = 0,
-                stringsAsFactors = FALSE)
+tri_play <- tribble(~time, ~x_ball, ~y_ball, ~x1, ~y1, ~x2, ~y2, ~x3, ~y3,
+        1, 0.05, 0.05, 0, 0, 1, 1, 2, 0,
+        2, 1, 0.95, 2.05, -0.05, 1, 1, 2, 0,
+        3, 1.95, 0.05, 2.05, -0.05, 0, 0, 2, 0,
+        4, 0.05, 0.05, 2, 0, 0, 0, 1, 1)
 
+tri_play_plot <- 
+  tri_play %>% 
+  ggplot()+
+  geom_point(aes(x=x_ball, y=y_ball), color ="goldenrod1", size =7)+
+  geom_point(aes(x=x1, y=y1), color ="blue", size =9)+
+  geom_point(aes(x=x2, y=y2), color ="blue", size =9)+
+  geom_point(aes(x=x3, y=y3), color ="blue", size =9)+
+  theme_void()+
+  transition_time(time)
 
-
-t2 <- data.frame(x_ball=1, y_ball=0.95, 
-                 x1 = 2.05, y1 = -0.05,
-                 x2 = 1, y2 = 1,
-                 x3 = 2, y3 = 0,
-                 stringsAsFactors = FALSE)
-
-t3 <- data.frame(x_ball=1.95, y_ball=0.05, 
-                 x1 = 2.05, y1 = -0.05,
-                 x2 = 0, y2 = 0,
-                 x3 = 2, y3 = 0,
-                 stringsAsFactors = FALSE)
-
-t4 <- data.frame(x_ball=0.05, y_ball=0.05, 
-                 x1 = 2., y1 = 0,
-                 x2 = 0, y2 = 0,
-                 x3 = 1, y3 = 1,
-                 stringsAsFactors = FALSE)
-
-tl <- list(t1,t2,t3,t4)
-
-
-t <- tween_states(tl, tweenlength = 2, statelength = 0, ease = 'sine-in-out',  nframes = 150)
-
-
-p <- ggplot(t)+
-  geom_point(aes(x=x_ball, y=y_ball, frame = .frame), color ="goldenrod1", size =7)+
-  geom_point(aes(x=x1, y=y1, frame = .frame), color ="blue", size =9)+
-  geom_point(aes(x=x2, y=y2, frame = .frame), color ="blue", size =9)+
-  geom_point(aes(x=x3, y=y3, frame = .frame), color ="blue", size =9)+
-  theme_no_axes()
-
-
-ani.options(interval = 10e-12)
-
-gganimate(p, "img/3eck.gif", title_frame = F, saver = "gif")
+anim_save("img/3eck.gif", tri_play_plot)
 }
 
 ```

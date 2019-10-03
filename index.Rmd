@@ -20,13 +20,12 @@ knitr::include_graphics("cover.png")
 
 
 ```{r include = FALSE}
-library(ggplot2)
+library(tidyverse)
 library(gganimate)
 library(ggforce)
 library(knitr)
 library(tweenr)
-library(animation)
 
-recalculate <- FALSE
+recalculate <- TRUE
 ```
 
