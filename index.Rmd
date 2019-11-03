@@ -26,6 +26,6 @@ library(ggforce)
 library(knitr)
 library(tweenr)
 
-recalculate <- TRUE
+recalculate <- FALSE
 ```
 

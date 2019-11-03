@@ -80,6 +80,7 @@ Drei Abwehrspieler auf Position 1, 5 und 6. Ein Zuspieler/Angreifer am Netz. Der
 #### Varianten {-}
 
 * Nach jedem Ballkontakt eines Spielers auf Position 1 oder 5 wechselt dieser Position mit dem Spieler auf Position 6.
+* Nach jedem kurzen (gelegtem) Ball geht der Spieler der den Ball abgewehrt hat auf die lange 6 und der Spieler auf der 6 rückt auf die Position des Ballspielenden.
 
 ## Abwehr-Kette
 

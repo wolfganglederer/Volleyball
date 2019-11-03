@@ -80,9 +80,6 @@ anim_save("img/paralell.gif", plot_change)
 knitr::include_graphics("img/paralell.gif")
 ```
 
-
-
-
 ### Spielen im Dreieck mit laufen
 
 Die Spieler stellen sich im Dreieck auf. Der Ball wird in eine Richtung gespielt und der Spieler läuft in die andere Richtung, usw.
@@ -122,6 +119,27 @@ anim_save("img/3eck.gif", tri_play_plot)
 ```{r echo=FALSE}
 knitr::include_graphics("img/3eck.gif")
 ```
+
+## Ohne Ball
+
+### Knie Berühren
+
+Zwei Spieler stehen sich gegenüber und versuche beide eines der Knie des Partners zu berühren und gleichzeitig Ihre eigenen Knie zu verteidigen. Nach 30 Sekunden Partner wechseln.
+
+##### Varianten {-}
+
+* geht auch in Liegestützposition
+
+
+### Ball übers Netz
+
+Spieler steht mit Rücken zum Netz und wirft den Ball durch die Beine übers Netz und fängt ihn bevor er das zweite mal auf dem Boden aufkomment.
+
+##### Varianten {-}
+
+* fangen bevor er einmal aufkommt
+* weit werfen und mit Hechtbagger verhindern dass er den Boden berührt
+
 
 # Athletik
 
